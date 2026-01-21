@@ -1,3 +1,19 @@
+/*
+Analysis: Most In-Demand Skills for Data Analyst Roles (2023)
+Scope: Dallas–Fort Worth Metroplex
+
+Methodology:
+- Filter job postings to Data Analyst roles within selected DFW cities.
+- Exclude postings without salary data to ensure relevance to paid roles.
+- Join job postings with associated skills.
+- Aggregate skill occurrences to count how frequently each skill
+  appears across qualifying job postings.
+
+Objective:
+Identify the top 5 most frequently required skills for Data Analyst
+positions in the DFW job market to highlight high-demand competencies.
+*/
+
 WITH dallas_top15 AS (
     SELECT * FROM (VALUES
         ('Dallas, TX'), ('Fort Worth, TX'), ('Arlington, TX'), ('Plano, TX'),

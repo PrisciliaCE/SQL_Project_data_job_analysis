@@ -1,3 +1,18 @@
+/*
+Analysis: Top-Paying Skills for Data Analyst Roles (2023)
+Scope: Dallas–Fort Worth Metroplex
+
+Methodology:
+- Filter job postings to Data Analyst roles in selected DFW cities.
+- Exclude postings without salary data to ensure accurate compensation analysis.
+- Join job postings with their associated skills.
+- Aggregate data by skill to calculate the **average salary** for jobs requiring each skill.
+
+Objective:
+Identify the top 10 skills linked to the highest-paying Data Analyst roles in the DFW area,
+highlighting high-value competencies that can guide career development and skill acquisition.
+*/
+
 WITH dallas_top15 AS (
     SELECT * FROM (VALUES
         ('Dallas, TX'), ('Fort Worth, TX'), ('Arlington, TX'), ('Plano, TX'),

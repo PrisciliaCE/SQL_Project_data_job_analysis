@@ -1,22 +1,19 @@
-/* 
-   Analysis: Top-Paying Data Analyst Jobs and Skills (2023)
-   Scope: Dallas–Fort Worth Metroplex 
-          - Dallas, Fort Worth, Arlington, Plano, Irving,
-            Garland, Frisco, McKinney, Denton, Grand Prairie, 
-            Richardson, Carrollton, Lewisville, Allen, Grapevine
+/*
+Analysis: Top-Paying Data Analyst Roles & Skills (2023)
+Scope: Dallas–Fort Worth Metroplex
+       (Dallas, Fort Worth, Arlington, Plano, Irving, Garland,
+        Frisco, McKinney, Denton, Grand Prairie, Richardson,
+        Carrollton, Lewisville, Allen, Grapevine)
 
-   - Identify the top 20 highest-paying Data Analyst roles across
-     the DFW metroplex in 2023.
-   - Exclude job postings without salary information to ensure
-     accurate, compensation-driven analysis.
-   - Extract and aggregate the skills associated with each
-     top-paying role to identify common high-value skill sets.
+Methodology:
+- Identify the top 20 highest-paying Data Analyst roles in the DFW area.
+- Exclude postings without salary data to ensure compensation accuracy.
+- Aggregate associated skills to identify high-value, in-demand competencies.
 
-   Objective:
-   Highlight the most lucrative Data Analyst opportunities in the
-   DFW job market and uncover the skills most frequently linked to
-   higher compensation, supporting data-driven career planning
-   and skill development.
+Objective:
+Highlight the most lucrative Data Analyst opportunities in the DFW job market
+and surface the skills most frequently associated with higher compensation to
+support data-driven career planning and skill development.
 */
 
 WITH dallas_top15 AS (
