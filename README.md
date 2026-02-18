@@ -1,4 +1,4 @@
-# DFW Data Analyst Market Intelligence Analysis (2023)
+# DFW Data Analyst Market Intelligence Analysis 
 #### SQL + Excel Market Intelligence Project
 
 ---
